@@ -1,15 +1,12 @@
 {
     "name": "ashraf/php-static-code-analysis",
     "description": "My first composer project",
-    "type": "library",
+    "type": "project",
     "license": "MIT",
     "require": {},
     "autoload": {
 		"psr-0": {
 			"php-static-code": "./"
 		}
-	},
-	"include-path": [
-		"./"
-	],
+	}
 }

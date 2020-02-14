@@ -3,7 +3,10 @@
     "description": "My first composer project",
     "type": "project",
     "license": "MIT",
-    "require": {},
+    "require": {
+		"zendframework/zendframework1": "1.*"
+	},
+
     "autoload": {
 		"psr-0": {
 			"php-static-code": "./"
